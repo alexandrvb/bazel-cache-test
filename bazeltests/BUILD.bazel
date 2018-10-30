@@ -1,0 +1,15 @@
+java_test(
+    name = "java_test",
+    size = "small",
+    test_class = "AllTests",
+    srcs = [
+        "src/AllTests.java",
+    ],
+)
+
+py_test(
+    name = "python_test",
+    srcs = [
+        "src/python_test.py"
+    ],
+)
